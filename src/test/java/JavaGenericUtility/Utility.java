@@ -26,7 +26,7 @@ public class Utility {
 			WebDriverManager.chromedriver().setup();
 			ChromeOptions opt = new ChromeOptions();
 			// as In Selenium there is bug for chrome browser version 111 so due to
-			// added the ChromeOptions class
+			// added the ChromeOptions class to avoid an error..
 			opt.addArguments("--remote-allow-origins=*");
 			driver = new ChromeDriver(opt);
 
