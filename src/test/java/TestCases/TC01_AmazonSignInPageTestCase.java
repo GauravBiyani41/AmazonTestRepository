@@ -20,6 +20,7 @@ public class TC01_AmazonSignInPageTestCase extends ExtentReportBaseClass {
 	@Test
 	public void signningToAmazon() throws InterruptedException {
 
+		
 		Utility utilityObj = new Utility(driver);
 		WebDriver driver = utilityObj.setUp("chrome");
 

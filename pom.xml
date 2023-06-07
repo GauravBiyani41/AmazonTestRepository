@@ -33,6 +33,25 @@
     <version>5.0.9</version>
 </dependency>
   
-  
   </dependencies>
+  
+  <build>
+    <pluginManagement>
+      <plugins>
+        <plugin>
+          <groupId>org.apache.maven.plugins</groupId>
+          <artifactId>maven-surefire-plugin</artifactId>
+          <version>3.0.0</version>
+           <configuration>
+           <forkCount>3</forkCount>
+           <reuseForks>true</reuseForks>
+           <argLine>-Xmx1024m --XXMaxPermSize-256m</argLine>
+   <suiteXmlFiles>
+   <suiteXmlFile>TestNGExtentReportGeneration.xml</suiteXmlFile>
+   </suiteXmlFiles>
+   </configuration>
+        </plugin>
+      </plugins>
+    </pluginManagement>
+  </build>
 </project>
