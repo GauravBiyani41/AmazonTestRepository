@@ -32,7 +32,7 @@ public class TC05_AddingProductIntoTheCart extends ExtentReportBaseClass {
 		String expectedUserName1 = "Email or mobile phone number";
 		String expectedUserName2 = "Enter mobile phone number or email";
 		String productName = "Samsung";
-		String addressPageTitle = " Select a payment method";
+		String addressPageTitle = " Select a delivery address";
 		String testCaseName = "TC05_AddingProductIntoTheCart";
 		
 		SignInPage signInPageObj = new SignInPage(driver);
