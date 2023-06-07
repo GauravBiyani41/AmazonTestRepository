@@ -3,7 +3,6 @@ package TestCases;
 import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
 import org.testng.annotations.Test;
-
 import ExtentReportUtility.ExtentReportBaseClass;
 import JavaGenericUtility.Utility;
 import PageObjects.HomePage;
