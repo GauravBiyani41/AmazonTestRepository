@@ -52,7 +52,7 @@
            <configuration>
            <forkCount>3</forkCount>
            <reuseForks>true</reuseForks>
-           <argLine>-Xmx1024m --XXMaxPermSize-256m</argLine>
+           
    <suiteXmlFiles>
    <suiteXmlFile>TestNGExtentReportGeneration.xml</suiteXmlFile>
    </suiteXmlFiles>
