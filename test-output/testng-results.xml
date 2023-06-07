@@ -2,35 +2,35 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="37112" started-at="2023-06-07T10:39:19 IST" finished-at="2023-06-07T10:39:56 IST">
+  <suite name="Default suite" duration-ms="28501" started-at="2023-06-07T14:28:57 IST" finished-at="2023-06-07T14:29:26 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="37112" started-at="2023-06-07T10:39:19 IST" finished-at="2023-06-07T10:39:56 IST">
-      <class name="TestCases.TC01_AmazonSignInPageTestCase">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:TestCases.TC01_AmazonSignInPageTestCase@1786f9d5]" name="setUp" is-config="true" duration-ms="205" started-at="2023-06-07T10:39:18 IST" finished-at="2023-06-07T10:39:19 IST">
+    <test name="Default test" duration-ms="28501" started-at="2023-06-07T14:28:57 IST" finished-at="2023-06-07T14:29:26 IST">
+      <class name="TestCases.TC09_SortingProductBasedOnPrice">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:TestCases.TC09_SortingProductBasedOnPrice@6eceb130]" name="setUp" is-config="true" duration-ms="207" started-at="2023-06-07T14:28:57 IST" finished-at="2023-06-07T14:28:57 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="signningToAmazon()[pri:0, instance:TestCases.TC01_AmazonSignInPageTestCase@1786f9d5]" name="signningToAmazon" duration-ms="37083" started-at="2023-06-07T10:39:19 IST" finished-at="2023-06-07T10:39:56 IST">
+        <test-method status="PASS" signature="SortingProductBasedOnPrice()[pri:0, instance:TestCases.TC09_SortingProductBasedOnPrice@6eceb130]" name="SortingProductBasedOnPrice" duration-ms="28464" started-at="2023-06-07T14:28:57 IST" finished-at="2023-06-07T14:29:26 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- signningToAmazon -->
-        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:TestCases.TC01_AmazonSignInPageTestCase@1786f9d5]" name="getResult" is-config="true" duration-ms="5" started-at="2023-06-07T10:39:56 IST" finished-at="2023-06-07T10:39:56 IST">
+        </test-method> <!-- SortingProductBasedOnPrice -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:TestCases.TC09_SortingProductBasedOnPrice@6eceb130]" name="getResult" is-config="true" duration-ms="11" started-at="2023-06-07T14:29:26 IST" finished-at="2023-06-07T14:29:26 IST">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=signningToAmazon status=SUCCESS method=TC01_AmazonSignInPageTestCase.signningToAmazon()[pri:0, instance:TestCases.TC01_AmazonSignInPageTestCase@1786f9d5] output={null}]]]>
+                <![CDATA[[TestResult name=SortingProductBasedOnPrice status=SUCCESS method=TC09_SortingProductBasedOnPrice.SortingProductBasedOnPrice()[pri:0, instance:TestCases.TC09_SortingProductBasedOnPrice@6eceb130] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:TestCases.TC01_AmazonSignInPageTestCase@1786f9d5]" name="tearDown" is-config="true" duration-ms="236" started-at="2023-06-07T10:39:56 IST" finished-at="2023-06-07T10:39:56 IST">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:TestCases.TC09_SortingProductBasedOnPrice@6eceb130]" name="tearDown" is-config="true" duration-ms="367" started-at="2023-06-07T14:29:26 IST" finished-at="2023-06-07T14:29:26 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- TestCases.TC01_AmazonSignInPageTestCase -->
+      </class> <!-- TestCases.TC09_SortingProductBasedOnPrice -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

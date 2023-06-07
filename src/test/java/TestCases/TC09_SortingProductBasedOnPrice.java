@@ -19,14 +19,13 @@ public class TC09_SortingProductBasedOnPrice extends ExtentReportBaseClass {
 	@Test
 	public void SortingProductBasedOnPrice() throws InterruptedException {
 
-		System.out.println("Enter the input price for the test case 9 for sorting the product based on price");
-		System.out.println("Enter the lowest price ");
-		@SuppressWarnings("resource")
-		Scanner sc = new Scanner(System.in);
-		String lowPrice = sc.nextLine();
-		System.out.println("Enter the highest price ");
-		String maxPrice = sc.nextLine();
-		
+//		System.out.println("Enter the input price for the test case 9 for sorting the product based on price");
+//		System.out.println("Enter the lowest price ");
+//		@SuppressWarnings("resource")
+//		Scanner sc = new Scanner(System.in);
+		String lowPrice = "10000";
+//		System.out.println("Enter the highest price ");
+		String maxPrice = "20000";
 		Utility utilityObj = new Utility(driver);
 		WebDriver driver = utilityObj.setUp("chrome");
 		
