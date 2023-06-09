@@ -19,15 +19,14 @@ public class TC08_SortProductBasedOnRating extends ExtentReportBaseClass{
 
 	public void SortProductBasedOnRating() throws InterruptedException {
 
-//		System.out.println("Enter the ratings of the products that you want to sort it from[1,2,3,4]");
-//		Scanner sc = new Scanner(System.in);
-//		String rating = sc.nextLine();
-		int rating=4;
-//		int ratingsOfTheProduct = Integer.parseInt(rating);
+	System.out.println("Enter the ratings of the products that you want to sort it from[1,2,3,4]");
+		Scanner sc = new Scanner(System.in);
+		String rating = sc.nextLine();
+		
+		int ratingsOfTheProduct = Integer.parseInt(rating);
 		
 		Utility utilityObj = new Utility(driver);
 		WebDriver driver = utilityObj.setUp("chrome");
-
 
 		String enterDataIntoSearchField = "Samsung Mobile";
 		String productsRatings;
@@ -41,7 +40,7 @@ public class TC08_SortProductBasedOnRating extends ExtentReportBaseClass{
 		
 		homePageObj.enterDataIntoTheSearchField(enterDataIntoSearchField);
 		
-		resultOfTheSearchObj.getTheRatingAndClickOnTheRating(rating);
+		resultOfTheSearchObj.getTheRatingAndClickOnTheRating(ratingsOfTheProduct);
 		resultOfTheSearchObj.fetchedTheRatingsOfTheProducts();
 		
 		// for loop for fetching and validating individual ratings of the products is
@@ -52,7 +51,7 @@ public class TC08_SortProductBasedOnRating extends ExtentReportBaseClass{
 			productsRatings = resultOfTheSearchObj.resultsOfTheRatingsOfTheProducts.get(i).getAttribute("innerText");
 		    productsRatings = productsRatings.substring(0, 3);
 			double ratings = Double.parseDouble(productsRatings);
-			Assert.assertTrue(ratings >= rating);
+			Assert.assertTrue(ratings >= ratingsOfTheProduct);
 		}
 	}
 }
