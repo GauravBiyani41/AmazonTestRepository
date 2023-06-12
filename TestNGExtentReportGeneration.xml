@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Suite">
+ <listeners>
+        <listener class-name="org.rationale.emotions.EnvReaderListener"/>
+    </listeners>
   <test name="Test">
   <parameter name="rating" value="2"></parameter>
     <classes>
