@@ -8,11 +8,108 @@
 <body>
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
-<tr><th colspan="8">Default suite</th></tr>
-<tr><td><a href="#t0">Default test</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">28,501</td><td></td><td></td></tr>
+<tr><th colspan="8">Suite</th></tr>
+<tr><td><a href="#t0">Test</a></td><td class="num">2</td><td class="num">0</td><td class="num">0</td><td class="num attn">8</td><td class="num">2,051,917,868</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Default suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Default test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">TestCases.TC09_SortingProductBasedOnPrice</td><td><a href="#m0">SortingProductBasedOnPrice</a></td><td rowspan="1">1686128337781</td><td rowspan="1">28464</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">TestCases.TC01_AmazonSignInPageTestCase</td><td><a href="#m0">signningToAmazon</a></td><td rowspan="1">1684416381152</td><td rowspan="1">142925</td></tr><tr class="failedodd"><td rowspan="1">TestCases.TC02_AddingUserNewAddress</td><td><a href="#m1">addingTheNewAddress</a></td><td rowspan="1">1684416524097</td><td rowspan="1">2677</td></tr><tr class="failedeven"><td rowspan="1">TestCases.TC03_VerifyingOptionsUnderSearchFunctionality</td><td><a href="#m2">verifyingOptionsUnderSearch</a></td><td rowspan="1">1684416526785</td><td rowspan="1">9289</td></tr><tr class="failedodd"><td rowspan="1">TestCases.TC06_AddingProductToWishList</td><td><a href="#m3">AddingProductIntoTheCart</a></td><td rowspan="1">1684416711578</td><td rowspan="1">130683</td></tr><tr class="failedeven"><td rowspan="1">TestCases.TC07_ChangingUserAddressOnHomePage</td><td><a href="#m4">changingUserAddressOnHomePage</a></td><td rowspan="1">1684416842262</td><td rowspan="1">19831</td></tr><tr class="failedodd"><td rowspan="1">TestCases.TC08_SortProductBasedOnRating</td><td><a href="#m5">SortProductBasedOnRating</a></td><td rowspan="1">1684416862095</td><td rowspan="1">2041870151</td></tr><tr class="failedeven"><td rowspan="1">TestCases.TC09_SortingProductBasedOnPrice</td><td><a href="#m6">SortingProductBasedOnPrice</a></td><td rowspan="1">1686458732362</td><td rowspan="1">7</td></tr><tr class="failedodd"><td rowspan="1">TestCases.TC10_EnterInvalidCredentials</td><td><a href="#m7">EnterInvalidCredentials</a></td><td rowspan="1">1686458732369</td><td rowspan="1">9566621</td></tr><tr><th colspan="4">Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">TestCases.TC04_SearchFunctionality</td><td><a href="#m8">verifyingSearchFunctionality</a></td><td rowspan="1">1684416536078</td><td rowspan="1">104698</td></tr><tr class="passedodd"><td rowspan="1">TestCases.TC05_AddingProductIntoTheCart</td><td><a href="#m9">AddingProductIntoTheCart</a></td><td rowspan="1">1684416640777</td><td rowspan="1">70796</td></tr></tbody>
 </table>
-<h2>Default test</h2><h3 id="m0">TestCases.TC09_SortingProductBasedOnPrice#SortingProductBasedOnPrice</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Test</h2><h3 id="m0">TestCases.TC01_AmazonSignInPageTestCase#signningToAmazon</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=113.0.5672.93)
+Build info: version: &apos;4.8.1&apos;, revision: &apos;8ebccac989&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_202&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [f744d446a651971b9e7cdb65e0fc8cf8, findElement {using=xpath, value=//*[@id=&apos;nav-logo-sprites&apos;]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.93, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\Users\GAURAV~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:62901}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:62901/devtoo..., se:cdpVersion: 113.0.5672.93, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: f744d446a651971b9e7cdb65e0fc8cf8
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+	at PageObjects.HomePage.amazonHomePageTitle(HomePage.java:39)
+	at TestCases.TC01_AmazonSignInPageTestCase.signningToAmazon(TC01_AmazonSignInPageTestCase.java:41)
+	at java.util.ArrayList.forEach(Unknown Source)
+... Removed 31 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">TestCases.TC02_AddingUserNewAddress#addingTheNewAddress</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=113.0.5672.93)
+Build info: version: &apos;4.8.1&apos;, revision: &apos;8ebccac989&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_202&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [a7921efcf62f913dc778f9de87744ee3, findElement {using=xpath, value=//span[text()=&apos;Account &amp; Lists&apos;]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.93, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\Users\GAURAV~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:63005}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:63005/devtoo..., se:cdpVersion: 113.0.5672.93, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: a7921efcf62f913dc778f9de87744ee3
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+	at PageObjects.SignInPage.clickOnSignIn(SignInPage.java:32)
+	at TestCases.TC02_AddingUserNewAddress.addingTheNewAddress(TC02_AddingUserNewAddress.java:43)
+	at java.util.ArrayList.forEach(Unknown Source)
+... Removed 31 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">TestCases.TC03_VerifyingOptionsUnderSearchFunctionality#verifyingOptionsUnderSearch</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=113.0.5672.93)
+Build info: version: &apos;4.8.1&apos;, revision: &apos;8ebccac989&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_202&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [1d7ef5141bd0067744649b1de06a81cf, findElements {using=xpath, value=//div[@id=&apos;nav-xshop&apos;]/a[@class=&apos;nav-a  &apos;]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.93, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\Users\GAURAV~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:63035}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:63035/devtoo..., se:cdpVersion: 113.0.5672.93, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 1d7ef5141bd0067744649b1de06a81cf
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElements(ElementLocation.java:179)
+	at org.openqa.selenium.remote.ElementLocation.findElements(ElementLocation.java:102)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:367)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:359)
+	at PageObjects.HomePage.differentOptionsunderSearch(HomePage.java:86)
+	at TestCases.TC03_VerifyingOptionsUnderSearchFunctionality.verifyingOptionsUnderSearch(TC03_VerifyingOptionsUnderSearchFunctionality.java:42)
+	at java.util.ArrayList.forEach(Unknown Source)
+... Removed 31 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">TestCases.TC06_AddingProductToWishList#AddingProductIntoTheCart</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: expected [Your order is eligible for FREE Delivery. Select this option at checkout.
+Details] but found [Deleted]
+	at TestCases.TC06_AddingProductToWishList.AddingProductIntoTheCart(TC06_AddingProductToWishList.java:59)
+	at java.util.ArrayList.forEach(Unknown Source)
+... Removed 33 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">TestCases.TC07_ChangingUserAddressOnHomePage#changingUserAddressOnHomePage</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: expected [Kalyan 421204] but found [Kalyan 421204‌]
+	at PageObjects.HomePage.changeAddress(HomePage.java:140)
+	at TestCases.TC07_ChangingUserAddressOnHomePage.changingUserAddressOnHomePage(TC07_ChangingUserAddressOnHomePage.java:45)
+	at java.util.ArrayList.forEach(Unknown Source)
+... Removed 33 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">TestCases.TC08_SortProductBasedOnRating#SortProductBasedOnRating</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.util.NoSuchElementException: No line found
+	at java.util.Scanner.nextLine(Unknown Source)
+	at TestCases.TC08_SortProductBasedOnRating.SortProductBasedOnRating(TC08_SortProductBasedOnRating.java:26)
+	at java.util.ArrayList.forEach(Unknown Source)
+... Removed 27 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">TestCases.TC09_SortingProductBasedOnPrice#SortingProductBasedOnPrice</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.util.NoSuchElementException: No line found
+	at java.util.Scanner.nextLine(Unknown Source)
+	at TestCases.TC09_SortingProductBasedOnPrice.SortingProductBasedOnPrice(TC09_SortingProductBasedOnPrice.java:26)
+	at java.util.ArrayList.forEach(Unknown Source)
+... Removed 27 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m7">TestCases.TC10_EnterInvalidCredentials#EnterInvalidCredentials</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: expected [To better protect your account, please re-enter your password and then enter the characters as they are shown in the image below.] but found [Your password is not correct]
+	at TestCases.TC10_EnterInvalidCredentials.EnterInvalidCredentials(TC10_EnterInvalidCredentials.java:65)
+	at java.util.ArrayList.forEach(Unknown Source)
+... Removed 33 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m8">TestCases.TC04_SearchFunctionality#verifyingSearchFunctionality</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m9">TestCases.TC05_AddingProductIntoTheCart#AddingProductIntoTheCart</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>

@@ -4,7 +4,10 @@ import java.util.Scanner;
 
 import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
+import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
+
+
 
 import ExtentReportUtility.ExtentReportBaseClass;
 import JavaGenericUtility.Utility;
@@ -14,14 +17,11 @@ import PageObjects.ResultOfTheSearch;
 public class TC08_SortProductBasedOnRating extends ExtentReportBaseClass{
 
 	WebDriver driver = null;
-
+	@Parameters("rating")
 	@Test
 
-	public void SortProductBasedOnRating() throws InterruptedException {
+	public void SortProductBasedOnRating(String rating) throws InterruptedException {
 
-	System.out.println("Enter the ratings of the products that you want to sort it from[1,2,3,4]");
-		Scanner sc = new Scanner(System.in);
-		String rating = sc.nextLine();
 		
 		int ratingsOfTheProduct = Integer.parseInt(rating);
 		

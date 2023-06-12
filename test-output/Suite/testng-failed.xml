@@ -3,6 +3,22 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
   <test thread-count="5" name="Test(failed)">
     <classes>
+      <class name="TestCases.TC06_AddingProductToWishList">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="AddingProductIntoTheCart"/>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- TestCases.TC06_AddingProductToWishList -->
+      <class name="TestCases.TC08_SortProductBasedOnRating">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="SortProductBasedOnRating"/>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- TestCases.TC08_SortProductBasedOnRating -->
       <class name="TestCases.TC10_EnterInvalidCredentials">
         <methods>
           <include name="setUp"/>
@@ -11,6 +27,46 @@
           <include name="getResult"/>
         </methods>
       </class> <!-- TestCases.TC10_EnterInvalidCredentials -->
+      <class name="TestCases.TC02_AddingUserNewAddress">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="addingTheNewAddress"/>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- TestCases.TC02_AddingUserNewAddress -->
+      <class name="TestCases.TC01_AmazonSignInPageTestCase">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="signningToAmazon"/>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- TestCases.TC01_AmazonSignInPageTestCase -->
+      <class name="TestCases.TC09_SortingProductBasedOnPrice">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="SortingProductBasedOnPrice"/>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- TestCases.TC09_SortingProductBasedOnPrice -->
+      <class name="TestCases.TC03_VerifyingOptionsUnderSearchFunctionality">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="verifyingOptionsUnderSearch"/>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- TestCases.TC03_VerifyingOptionsUnderSearchFunctionality -->
+      <class name="TestCases.TC07_ChangingUserAddressOnHomePage">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="changingUserAddressOnHomePage"/>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- TestCases.TC07_ChangingUserAddressOnHomePage -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
