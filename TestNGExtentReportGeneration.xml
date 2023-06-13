@@ -3,7 +3,7 @@
 <suite name="Suite">
  
   <test name="Test">
-  <parameter name="rating" value="2"></parameter>
+  
     <classes>
       <class name="TestCases.TC01_AmazonSignInPageTestCase"/>
        <class name="TestCases.TC02_AddingUserNewAddress"/>

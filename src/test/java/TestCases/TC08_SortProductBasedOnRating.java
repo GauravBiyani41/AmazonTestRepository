@@ -17,13 +17,13 @@ import PageObjects.ResultOfTheSearch;
 public class TC08_SortProductBasedOnRating extends ExtentReportBaseClass{
 
 	WebDriver driver = null;
-	@Parameters("rating")
+	
 	@Test
 
-	public void SortProductBasedOnRating(String rating) throws InterruptedException {
+	public void SortProductBasedOnRating() throws InterruptedException {
 
 		
-		int ratingsOfTheProduct = Integer.parseInt(rating);
+		int ratingsOfTheProduct = Integer.parseInt(System.getProperty("rating"));
 		
 		Utility utilityObj = new Utility(driver);
 		WebDriver driver = utilityObj.setUp("chrome");
